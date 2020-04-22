@@ -1,5 +1,5 @@
 echo ===== Installing git =====
-sudo apt install git
+sudo apt-get -y install git
 echo ===== Cloning repo =====
 echo ".cfg" >> .gitignore
 git clone --bare https://github.com/vandemjh/dotfiles.git $HOME/.cfg
