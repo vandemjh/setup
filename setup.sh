@@ -16,8 +16,8 @@ echo ".cfg" >> .gitignore
 git clone --bare https://github.com/vandemjh/dotfiles.git $HOME/.cfg
 shopt -s expand_aliases     #Allows aliases in current shell scope
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-echo ===== Removing blank .bashrc =====
-rm .bashrc
+echo ===== Removing old .bashrc =====
+echo "" > .bashrc
 echo ===== Importing dotfiles =====
 config checkout
 config config --local status.showUntrackedFiles no
