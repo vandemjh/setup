@@ -1,3 +1,10 @@
+diff /etc/skel/.bash_logout ~/.bashrc
+read -p "Warning! This script will delete your ~/.bashrc file, continue? " -n 1 -r
+echo
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+    exit 1
+fi
 echo ===== Installing git =====
 sudo apt-get -y install git
 echo ===== Cloning repo =====
