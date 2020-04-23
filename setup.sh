@@ -1,5 +1,5 @@
-DIFF=$(diff /etc/skel/.bashrc ~/.bashrc)
-if [ "$DIFF" != "" ] 
+cd
+if [ "$(diff /etc/skel/.bashrc ~/.bashrc)" != "" ] 
 then
     read -p "Warning! This script will delete your ~/.bashrc file, continue? (y/n) " -n 1 -r
     echo
@@ -22,3 +22,6 @@ echo ===== Importing dotfiles =====
 config checkout
 config config --local status.showUntrackedFiles no
 rm .gitignore
+echo ===== Continuing... =====
+chmod +x .setup
+./.setup
