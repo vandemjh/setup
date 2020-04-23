@@ -25,3 +25,7 @@ rm .gitignore
 echo ===== Continuing... =====
 chmod +x .setup
 ./.setup
+
+# To add later...
+# | whiptail --title "Jack's Linux Suite Installer" --gauge "${phases[0]}" 6 60 0
+# --backtitle "$(printf 'Jack! %.0s' {1..500})" 
