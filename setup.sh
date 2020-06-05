@@ -26,6 +26,10 @@ echo ===== Continuing... =====
 chmod +x .setup
 ./.setup
 
+# === Setup Instructions for Mac ===
+# 1) Install homebrew
+# 2) Install
+
 # To add later...
 # | whiptail --title "Jack's Linux Suite Installer" --gauge "${phases[0]}" 6 60 0
 # --backtitle "$(printf 'Jack! %.0s' {1..500})" 
