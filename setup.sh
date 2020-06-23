@@ -9,8 +9,8 @@ then
     fi
 fi
 
-#apt update
-#apt upgrade
+apt update
+apt upgrade
 echo ===== Installing sudo =====
 apt install sudo
 echo ===== Installing git =====
