@@ -29,8 +29,8 @@ config checkout
 config config --local status.showUntrackedFiles no
 rm .gitignore
 echo ===== Continuing... =====
-chmod +x .setup
-./.setup
+chmod +x .setup.sh
+./.setup.sh
 
 # === Setup Instructions for Mac ===
 # 1) Install homebrew
