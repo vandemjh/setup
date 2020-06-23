@@ -9,6 +9,10 @@ then
     fi
 fi
 
+#apt update
+#apt upgrade
+echo ===== Installing sudo =====
+apt install sudo
 echo ===== Installing git =====
 sudo apt-get -y install git
 echo ===== Cloning repo =====
