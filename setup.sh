@@ -9,6 +9,7 @@ then
     fi
 fi
 
+cd
 apt update
 apt upgrade
 echo ===== Installing sudo =====
