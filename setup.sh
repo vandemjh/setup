@@ -13,6 +13,8 @@ apt update
 apt upgrade
 echo ===== Installing sudo =====
 apt install sudo
+echo ===== Installing curl =====
+sudo apt install curl
 echo ===== Installing git =====
 sudo apt-get -y install git
 echo ===== Cloning repo =====
