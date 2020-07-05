@@ -9,13 +9,12 @@ then
     fi
 fi
 
-cd
-apt update
-apt upgrade
-echo ===== Installing sudo =====
-apt install sudo
-echo ===== Installing curl =====
-sudo apt install curl
+cd;apt update -y;apt upgrade -y;apt install -y sudo;sudo apt -y install curl;
+
+# echo ===== Installing sudo =====
+# apt install sudo
+# echo ===== Installing curl =====
+# sudo apt install curl
 echo ===== Installing git =====
 sudo apt-get -y install git
 echo ===== Cloning repo =====
